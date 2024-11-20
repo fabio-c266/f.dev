@@ -1,4 +1,4 @@
-import { AboutCardsData } from '@/data/constants/AboutCardsData'
+import { AboutCardsData } from '@/data/constants/AboutMeCardsData'
 import { SectionTitle } from './SectionTitle'
 import { AboutMeCard } from './AboutMeCard'
 
