@@ -1,7 +1,22 @@
+import { AboutMe } from '@/components/AboutMe'
+import { Header } from '@/components/Header'
+import { Hero } from '@/components/Hero'
+import { Journey } from '@/components/Journey'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hellow word!</h1>
-    </div>
+    <>
+      <Header />
+      <div className="px-20">
+        <Hero />
+        <AboutMe />
+        <Journey />
+        {/*
+        // Projects
+        // Contact
+        // Footer
+        */}
+      </div>
+    </>
   )
 }
