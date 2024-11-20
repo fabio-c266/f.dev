@@ -1,6 +1,6 @@
 import { AboutCardsData } from '@/data/constants/AboutCardsData'
 import { SectionTitle } from './SectionTitle'
-import { AboutCard } from './AboutCard'
+import { AboutMeCard } from './AboutMeCard'
 
 export function AboutMe() {
   return (
@@ -9,7 +9,7 @@ export function AboutMe() {
 
       <div className="flex flex-col gap-8">
         {AboutCardsData.map((item) => (
-          <AboutCard key={item.id} {...item} />
+          <AboutMeCard key={item.id} {...item} />
         ))}
       </div>
     </section>
