@@ -2,6 +2,7 @@ import { AboutMe } from '@/components/AboutMe'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Journey } from '@/components/Journey'
+import { Projects } from '@/components/Projects'
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <Journey />
+        <Projects />
         {/*
-        // Projects
         // Contact
         // Footer
         */}
